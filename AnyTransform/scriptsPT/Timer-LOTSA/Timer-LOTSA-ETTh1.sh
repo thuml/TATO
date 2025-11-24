@@ -6,7 +6,7 @@ label_len=576
 #pred_len=96
 #output_len=96
 patch_len=96
-ckpt_path=/data/qiuyunzhong/ts_adaptive_inference/Timer/ckpt/Building_timegpt_d1024_l8_p96_n64_new_full.ckpt
+ckpt_path=/data/ts_adaptive_inference/Timer/ckpt/Building_timegpt_d1024_l8_p96_n64_new_full.ckpt
 
 
 python3 -u ./AnyTransform/exp_single.py \
